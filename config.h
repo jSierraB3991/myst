@@ -1,5 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
+/* bg opacity*/
+float alpha = 0.7; 
+
+
 /*
  * appearance
  *
