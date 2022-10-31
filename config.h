@@ -3,7 +3,10 @@
 /* bg opacity*/
 float alpha = 0.7; 
 
-
+/* blinking cursor*/
+static unsigned int cursorstyle = 1;
+static Rune stcursor = 0x2603; /* snowman ("☃") */
+static int cursorblinks = 0;
 /*
  * appearance
  *
